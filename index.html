@@ -14,47 +14,47 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <a href="index.html" title="Accueil" class="lien-icone">
                 <img class="logo" src="images/logo.png" alt="Logo Robbie Lens">
             </a>
-            <div class="liens-nav">
-                <a href="index.html">Accueil</a>
-                <a href="a-propos.html">À propos</a>
-                <a href="">Tarifs</a>
-                <a href="portfolio.html">Portfolio</a>
+            <div class="navbar__links">
+                <a class="navbar__link navbar__link--purple" href="index.html">Accueil</a>
+                <a class="navbar__link" href="a-propos.html">À propos</a>
+                <a class="navbar__link" href="a-propos.html#tarifs">Tarifs</a>
+                <a class="navbar__link" href="portfolio.html">Portfolio</a>
             </div>
         </nav>
     </header>
     <main>
-        <section class="accueil-introduction">
-            <div>
-                <h1>Photographie</h1>
-                <p>
+        <section class="intro">
+            <div class="intro__content">
+                <h1 class="intro__title">Photographie</h1>
+                <p class="intro__text">
                 Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion
                 qui m’anime : capturer l’essence de chaque instant.
                 </p>
                 <a class= "cta" href="#contact">UN PROJET ? ÉCRIVEZ-MOI</a>
             </div>
-            <img src="images/robbie-lens.png" alt="Photo avec effet de Robbie Lens">
+            <img class="intro__photo" src="images/robbie-lens.png" alt="Photo avec effet de Robbie Lens">
         </section>
-        <section class="accueil-photos">
-            <h2>Mon dernier projet</h2>
-            <div>
-                <img src="images/accueil/element-1.png" alt="Photo 1">
-                <img src="images/accueil/element-2.png" alt="Photo 2">
-                <img src="images/accueil/element-3.png" alt="Photo 3">
+        <section class="last-project">
+            <h2 class="last-project__title">Mon dernier projet</h2>
+            <div class="last-project__content">
+                <img class="last-project__item" src="images/accueil/element-1.png" alt="Photo 1">
+                <img class="last-project__item" src="images/accueil/element-2.png" alt="Photo 2">
+                <img class="last-project__item" src="images/accueil/element-3.png" alt="Photo 3">
             </div>
-            <div>
-                <img src="images/accueil/element-4.png" alt="Photo 4">
-                <img src="images/accueil/element-5.png" alt="Photo 5">
-                <img src="images/accueil/element-6.png" alt="Photo 6">
+            <div class="last-project__content">
+                <img class="last-project__item" src="images/accueil/element-4.png" alt="Photo 4">
+                <img class="last-project__item" src="images/accueil/element-5.png" alt="Photo 5">
+                <img class="last-project__item" src="images/accueil/element-6.png" alt="Photo 6">
             </div>
         </section>
-        <section id="contact" class="section-contact">
-            <h2>Parlons de votre projet</h2>
-            <form method="get" action="#">
-                <div class="form-nom-email">
+        <section id="contact" class="contact">
+            <h2 class="contact__title">Parlons de votre projet</h2>
+            <form class="contact__form" method="get" action="#">
+                <div class="contact__form-nom-email">
                     <div class="form-column">
                         <label for="nom">nom</label>
                         <input type="text" name="nom">
